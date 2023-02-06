@@ -1,7 +1,7 @@
 # Specify the base Docker image. You can read more about
 # the available images at https://sdk.apify.com/docs/guides/docker-images
 # You can also use any other image from Docker Hub.
-FROM apify/actor-node:16-beta
+FROM apify/actor-node:16-next
 
 # Vlad: testing clean installs
 RUN rm -rf node_modules
