@@ -1,0 +1,9 @@
+{
+  "name": "@vladfrangu/apify-testing-docker-images",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@apify/eslint-config": "^0.3.1",
+    "eslint": "^8.33.0"
+  }
+}
