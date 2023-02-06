@@ -22,8 +22,8 @@ RUN npm --quiet set progress=false \
     && echo "NPM version:" \
     && npm --version \
     # Try it again for sped
-    && rm package-lock.json \
-    && npm install --omit=dev --omit=optional \
+    # && rm package-lock.json \
+    # && npm install --omit=dev --omit=optional \
     && rm -r ~/.npm
 
 # Next, copy the remaining files and directories with the source code.
