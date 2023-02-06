@@ -1,0 +1,7 @@
+{
+	"actorSpecification": 1,
+	"name": "npm-i-tsc-no-node-modules",
+	"version": "0.0",
+	"buildTag": "latest",
+	"environmentVariables": {}
+}
