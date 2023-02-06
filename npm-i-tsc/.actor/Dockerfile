@@ -14,6 +14,10 @@ COPY package*.json ./
 # Install all dependencies. Don't audit to speed up the installation.
 RUN npm install --include=dev --audit=false
 
+RUN echo Installed deps after copying package.json
+
+RUN npm list --all || true
+
 # Next, copy the source files using the user set
 # in the base image.
 COPY . ./
